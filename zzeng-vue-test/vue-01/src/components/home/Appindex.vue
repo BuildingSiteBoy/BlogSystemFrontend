@@ -37,7 +37,7 @@
   #header-div {
     padding-bottom: 20px;
     padding-left: 5px;
-    background-color: white;
+    background-color: #ffd7d1;
   }
   #side-menu {
     position: fixed;

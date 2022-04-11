@@ -11,7 +11,7 @@
       <el-menu-item v-for="(item,i) in navList" :key="i" :index="item.name">
         {{ item.navItem }}
       </el-menu-item>
-      <span style="position: absolute;padding-top: 20px;right: 43%;font-size: 20px;font-weight: bold">White Jotter - Your Mind Palace</span>
+      <span style="position: absolute;padding-top: 20px;right: 43%;font-size: 20px;font-weight: bold">Blog System - Your Mind Palace</span>
       <el-input
         placeholder="快速搜索..."
         prefix-icon="el-icon-search"
@@ -30,8 +30,9 @@
       return {
         navList: [
           {name: '/index', navItem: '首页'},
-          {name: '/jotter', navItem: '笔记本'},
-          {name: '/library', navItem: '图书馆'},
+          {name: '/jotter', navItem: '回忆录'},
+          {name: '/blog', navItem: '写博客'},
+          {name: '/library', navItem: '藏书阁'},
           {name: '/login', navItem: '管理中心'}
         ],
         keywords: ''

@@ -1,9 +1,9 @@
 <template xmlns:v-on="http://www.w3.org/1999/xhtml">
   <el-card class="admin-header">
     <a href="/index">
-      <img src="../../assets/bg1.png" alt="" width="55px" style="float: left;margin-top: -5px;">
+      <img src="../../assets/backend/postman.png" alt="" width="55px" style="float: left;margin-top: -5px;">
     </a>
-    <span style="font-size: 32px;font-weight: bold;position:absolute;left: 100px">白  卷</span>
+    <span style="font-size: 32px;font-weight: bold;position:absolute;left: 100px">前    台</span>
     <i class="el-icon-switch-button" v-on:click="logout" style="font-size: 40px;float: right"></i>
   </el-card>
 </template>

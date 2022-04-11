@@ -1,11 +1,13 @@
 <template>
   <div class="quick-nav">
-    <img src="../../assets/img/icon/icon2.png" alt="" class="monster">
-    <a href="https://github.com/Antabot/White-Jotter/blob/master/README.md" target="_blank">
-      <img src="../../assets/img/icon/icon5.png" alt="" class="readme">
+    <div style="font-size: 70px;color: #6a3a42;white-space: nowrap">Learning links
+    </div>
+<!--    <img src="../../assets/img/icon/icon2.png" alt="" class="monster">-->
+    <a href="https://github.com/BuildingSiteBoy" target="_blank">
+      <img src="../../assets/img/icon/postman.png" alt="" class="readme">
     </a>
-    <img src="../../assets/img/icon/icon7.png" alt="" class="spark">
-    <img src="../../assets/img/icon/logo.png" alt="" class="logo">
+<!--    <img src="../../assets/img/icon/icon7.png" alt="" class="spark">-->
+<!--    <img src="../../assets/img/icon/logo.jpg" alt="" class="logo">-->
   </div>
 </template>
 
@@ -29,8 +31,9 @@
     /*left: 700px;*/
   }
   .readme {
-    width: 300px;
-    height: 285px;
+    /*width: 300px;*/
+    /*height: 285px;*/
+    width: 9%;
     position: absolute;
     margin-left: 50%;
     top: 300px;
@@ -46,7 +49,7 @@
     width: 280px;
     position: absolute;
     margin-left: 50%;
-    top: 50px;
-    left: 210px;
+    top: 60px;
+    left: 220px;
   }
 </style>
