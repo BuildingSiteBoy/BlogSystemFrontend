@@ -12,6 +12,8 @@ public class StringUtils {
             int number = random.nextInt(base.length());
             sb.append(base.charAt(number));
         }
+
+
         return sb.toString();
     }
 }
